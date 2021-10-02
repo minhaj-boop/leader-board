@@ -1,7 +1,7 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-/* Common Styles / utilities */
+/* Common Styles / Utilities */
 .container {
   background: #ffffff;
   border-radius: 5px;
@@ -91,4 +91,24 @@ body {
   color: #562eff;
   text-decoration: none;
   font-size: 16px;
+}
+
+/* Latest Courses styles */
+
+.course .course-banner img {
+  width: 266px;
+  height: 141px;
+}
+.course-info {
+  display: flex;
+}
+.fa-star {
+  font-size: 16px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  background: #aeaeae;
+  opacity: 0.25;
 }
